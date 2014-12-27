@@ -1,4 +1,4 @@
-ArduinoDES
+KEYGEN
 ==========
 
 Keygeneration algorythm for arduino and Raspberry pi
