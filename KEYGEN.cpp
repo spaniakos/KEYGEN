@@ -60,7 +60,7 @@ void KEYGEN::printArray(char output[],int sizel)
 /*****************************************************************************/
 
 #if defined(KEYGEN_LINUX)
-unsigned long KEYGEN::millis(){
+double KEYGEN::millis(){
 	gettimeofday(&tv, NULL);
 	return (tv.tv_sec + 0.000001 * tv.tv_usec);
 }
