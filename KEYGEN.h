@@ -39,7 +39,7 @@ class KEYGEN{
 			int get_type();
 			void printArray(char output[],int sizel);
 			#if defined(KEYGEN_LINUX)
-				unsigned long millis();
+				double millis();
 				long int rpi_rand(int x);
 			#endif
 };
