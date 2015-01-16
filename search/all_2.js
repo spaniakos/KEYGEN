@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['keygen',['KEYGEN',['../classKEYGEN.html',1,'']]],
-  ['keygen',['KEYGEN',['../md_README.html',1,'']]]
+  ['init',['init',['../classKEYGEN.html#ad687918dd172d5838a018bd5d7715cab',1,'KEYGEN']]]
 ];

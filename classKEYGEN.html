@@ -85,6 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classKEYGEN-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">KEYGEN Class Reference</div>  </div>
@@ -105,6 +106,19 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a415c3b0e1b616b433dc173bf4d044d2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d2a5424016d2b5082fc0c9aa3c84452"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKEYGEN.html#a2d2a5424016d2b5082fc0c9aa3c84452">printArray</a> (char output[], int sizel)</td></tr>
 <tr class="separator:a2d2a5424016d2b5082fc0c9aa3c84452"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aabdb139aa8d1489adc42cb2c2e752ef8"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKEYGEN.html#aabdb139aa8d1489adc42cb2c2e752ef8">NUMS</a> [NUMS_MAX+1] = &quot;0123456789&quot;</td></tr>
+<tr class="separator:aabdb139aa8d1489adc42cb2c2e752ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b2e7235f9a46a98036433d1255e444c"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKEYGEN.html#a8b2e7235f9a46a98036433d1255e444c">SYMS</a> [SYMS_MAX+1] = &quot;!@#$^&amp;*()-_=+[]&lt;&gt;,./:&quot;</td></tr>
+<tr class="separator:a8b2e7235f9a46a98036433d1255e444c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aed0a01a22c4c9d6779e5cd568a2562"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKEYGEN.html#a0aed0a01a22c4c9d6779e5cd568a2562">CAPS</a> [CAPS_MAX+1] = &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;</td></tr>
+<tr class="separator:a0aed0a01a22c4c9d6779e5cd568a2562"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeee875e7319b534ebfd150626850cd1a"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKEYGEN.html#aeee875e7319b534ebfd150626850cd1a">LOWE</a> [LOWE_MAX+1] = &quot;abcdefghijklmnopqrstuvwxyz&quot;</td></tr>
+<tr class="separator:aeee875e7319b534ebfd150626850cd1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a919e5a54a4d8f2073a97fe9683d8d7d1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKEYGEN.html#a919e5a54a4d8f2073a97fe9683d8d7d1">pin</a></td></tr>
+<tr class="separator:a919e5a54a4d8f2073a97fe9683d8d7d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl><dt><b>Examples: </b></dt><dd><a class="el" href="RANDOM_8cpp-example.html#_a0">RANDOM.cpp</a>, and <a class="el" href="RANDOM_8ino-example.html#_a0">RANDOM.ino</a>.</dd>
@@ -259,10 +273,116 @@ Public Member Functions</h2></td></tr>
 </dl>
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="aabdb139aa8d1489adc42cb2c2e752ef8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char KEYGEN::NUMS[NUMS_MAX+1] = &quot;0123456789&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Hold the Numbers </p>
+
+</div>
+</div>
+<a class="anchor" id="a8b2e7235f9a46a98036433d1255e444c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char KEYGEN::SYMS[SYMS_MAX+1] = &quot;!@#$^&amp;*()-_=+[]&lt;&gt;,./:&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Holds the Symbols </p>
+
+</div>
+</div>
+<a class="anchor" id="a0aed0a01a22c4c9d6779e5cd568a2562"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char KEYGEN::CAPS[CAPS_MAX+1] = &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Holds the Caps letters </p>
+
+</div>
+</div>
+<a class="anchor" id="aeee875e7319b534ebfd150626850cd1a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char KEYGEN::LOWE[LOWE_MAX+1] = &quot;abcdefghijklmnopqrstuvwxyz&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Hold the Lower letters </p>
+
+</div>
+</div>
+<a class="anchor" id="a919e5a54a4d8f2073a97fe9683d8d7d1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int KEYGEN::pin</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Pin to gain noise from, Used for random seed </p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 16 2015 13:15:28 for KeyGeneration and IV algorithm by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jan 16 2015 13:28:29 for KeyGeneration and IV algorithm by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>
