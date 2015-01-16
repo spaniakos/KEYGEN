@@ -11,7 +11,7 @@ Usage
 install
 ```
 sudo make install
-cd examples_Rpi
+cd examples_RPi
 make
 ```
 
@@ -19,14 +19,14 @@ What to do after changes to the library
 ```
 sudo make clean
 sudo make install
-cd examples_Rpi
+cd examples_RPi
 make clean
 make
 ```
 
 What to do after changes to a sketch
 ```
-cd examples_Rpi
+cd examples_RPi
 make <sketch>
 
 or 
@@ -36,7 +36,7 @@ make
 
 How to start a sketch
 ```
-cd examples_Rpi
+cd examples_RPi
 sudo ./<sketch>
 ```
 
