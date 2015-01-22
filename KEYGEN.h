@@ -91,7 +91,7 @@ class KEYGEN{
 				* used in Raspberry pi in order to generate a random number.
 				* 
 				* @note there is a definition in KEYGEN_config that defined random(x) as rpi_rand(x).
-				* @param get an integer that is te upper limit-1 of the random number.
+				* @param x get an integer that is te upper limit-1 of the random number.
 				* @return returns a random number from 0 to x
 				*/
 				long int rpi_rand(int x);
