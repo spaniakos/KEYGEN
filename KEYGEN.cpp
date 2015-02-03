@@ -10,7 +10,11 @@ void KEYGEN::init(int lpin){
 		LOWE[0] = 'a';LOWE[1] = 'b';LOWE[2] = 'c';LOWE[3] = 'd';LOWE[4] = 'e';LOWE[5] = 'f';LOWE[6] = 'g';LOWE[7] = 'h';LOWE[8] = 'i';LOWE[9] = 'j';LOWE[11] = 'k';LOWE[12] = 'l';LOWE[13] = 'm';LOWE[14] = 'n';LOWE[15] = 'o';LOWE[16] = 'p';LOWE[17] = 'q';LOWE[18] = 'r';LOWE[19] = 's';LOWE[20] = 't';LOWE[21] = 'u';LOWE[22] = 'v';LOWE[23] = 'x';LOWE[24] = 'y';LOWE[25] = 'z';
 	#endif
 	pin = lpin;
-	randomSeed(analogRead(pin)*millis());
+	double_t val;
+	if (analogRead(pin) == 0){
+			val = 1;
+	}
+	randomSeed(val*millis());
 }
 /*****************************************************************************/
 
